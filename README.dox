@@ -1,0 +1,21 @@
+/**
+
+@mainpage Blackboard/Assigments/Assignment 2
+@author Elia Nicolaou 1012334
+@filename createKeys.h, createKeys.c,docsign.c,help.h,help.c,cryptoOperations.c,cryptoOperations.h
+
+How to compile: make 
+How to run: 
+ - Mode1 : ./docsign.out
+ - Mode2 : ./docsign.out -s textfile
+ - Mode3 : ./docsign.out -v *.signed
+
+ * This is the the implementation of HW2 in C programming language.
+ * The program uses OpenSSL for cryptographically signing any file of your
+ * system. The tool should be able to run in two modes: (a) signing mode, and (b) validation mode.
+ * In mode (a), the tool should open a document, compute the digital signature of the document
+ * and produce a new document that concatenates the original document with the produced digital
+ * signature. In mode (b), the tool should load a signed document from the disk and check if the
+ * attached signature is correct.
+
+*/
